@@ -15,7 +15,7 @@ INSTALACION DE REPOSITORIO YA EXISTENTE EN GITHUB
       1. Ejecutar paso 1. (de INSTALACION DESDE 0)
       2. En la carpeta anterior: git clone https://github.com/sudcra/sudcra_2024.git (para clonar repositorio en local)
       3. Ejecutar paso 2. (de INSTALACION DESDE 0)
-      4. Dentro del repositorio local: git pull sudcra_2024 master (para actualizar la copia local del repositorio ya existente en github)
+      4. Dentro del repositorio local: git pull origin master (para actualizar la copia local del repositorio ya existente en github)
             Observación: el punto 4 también será necesario si se quiere hacer "push" cuando alguien realizó cambios en la rama.
       5. Trabajar con los puntos 5 y 7 a 9.
 
