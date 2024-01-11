@@ -10,3 +10,7 @@ Comandos de trabajo en git:
       git add . (para declarar elementos nuevos en local)
       git commit -am "descripcion_de_modificaciones" (para guardar modificaciones en local)
       git push -u origin master (para guardar el commit en la rama por defecto del proyecto)
+
+Clonar en local
+      git clone https://github.com/sudcra/sudcra_2024.git (primero clonar)
+      git pull sudcra_2024 master
