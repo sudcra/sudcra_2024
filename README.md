@@ -11,7 +11,9 @@ Comandos de trabajo en git:
       7. git commit -am "descripcion_de_modificaciones" (para guardar modificaciones en local)
       9. git push -u origin master (para guardar el commit en la rama por defecto del proyecto)
 
-INSTALACION DESDE CLONACION
+INSTALACION DE REPOSITORIO YA EXISTENTE EN GITHUB
       1. Ejecutar paso 1 (INSTALACION DESDE 0).
       2. En la carpeta anterior: git clone https://github.com/sudcra/sudcra_2024.git (para clonar repositorio en local)
       3. Dentro del repositorio local: git pull sudcra_2024 master (para actualizar la copia local del repositorio ya existente)
+
+CREAR RAMAS COLABORATIVAS, SUBIRLAS POR SEPARADO E INTEGRARLAS EN LA RAMA PRINCIPAL (pendiente)
