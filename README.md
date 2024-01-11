@@ -1,16 +1,17 @@
-INSTALACION:
-Crear carpeta de trabajo en ruta local
-Crear un entorno virtual en python en la carpeta de trabajo (ej. python -m venv sudcra_2024)
-Crear carpeta de rutinas en el EV (ej. rutinas)
-Correr "Open git bash here" detro de la carpeta de rutinas
+INSTALACION DESDE 0:
+1. Crear carpeta de trabajo en ruta local
+2. Crear un entorno virtual en python en la carpeta de trabajo (ej. python -m venv sudcra_2024)
+3. Crear carpeta de rutinas en el EV (ej. rutinas)
+4. Correr "Open git bash here" detro de la carpeta de rutinas
 
 Comandos de trabajo en git: 
-      git init (para inicializar)
-      git remote add origin https://github.com/sudcra/sudcra_2024.git (para sincronizar con el proyecto)
-      git add . (para declarar elementos nuevos en local)
-      git commit -am "descripcion_de_modificaciones" (para guardar modificaciones en local)
-      git push -u origin master (para guardar el commit en la rama por defecto del proyecto)
+      5. git init (para inicializar)
+      6. git remote add origin https://github.com/sudcra/sudcra_2024.git (para sincronizar con el proyecto)
+      7. git add . (para declarar elementos nuevos en local)
+      7. git commit -am "descripcion_de_modificaciones" (para guardar modificaciones en local)
+      9. git push -u origin master (para guardar el commit en la rama por defecto del proyecto)
 
-Clonar en local
-      git clone https://github.com/sudcra/sudcra_2024.git (primero clonar)
-      git pull sudcra_2024 master
+INSTALACION DESDE CLONACION
+      1. Ejecutar paso 1 (INSTALACION DESDE 0).
+      2. En la carpeta anterior: git clone https://github.com/sudcra/sudcra_2024.git (para clonar repositorio en local)
+      3. Dentro del repositorio local: git pull sudcra_2024 master (para actualizar la copia local del repositorio ya existente)
